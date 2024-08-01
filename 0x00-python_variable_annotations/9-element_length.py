@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"concat str1/str2"
+"list of tuples containing the element and its length"
 from typing import Tuple, List, Sequence
 
 
 def element_length(lst) -> List[Tuple[Sequence, int]]:
-    return [(i, len(i)) for i in lst]
+	"""
+	Return a list of tuples containing the element and its length
+	"""
+	return [(i, len(i)) for i in lst]
